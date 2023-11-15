@@ -1,0 +1,26 @@
+openapi: 3.0.0
+info:
+  title: SalesforceContactSearch
+  version: 1.0.0
+paths:
+  /*:
+    get:
+      summary: Retrieve an example resource
+      responses:
+        '200':
+          description: Successful response
+    post:
+      summary: Create an example resource
+      responses:
+        '201':
+          description: Resource created successfully
+    put:
+      summary: Update an example resource
+      responses:
+        '200':
+          description: Resource updated successfully
+    delete:
+      summary: Delete an example resource
+      responses:
+        '204':
+          description: Resource deleted successfully

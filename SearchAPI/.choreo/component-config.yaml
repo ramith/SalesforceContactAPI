@@ -1,0 +1,15 @@
+apiVersion: core.choreo.dev/v1alpha1
+kind: ComponentConfig
+metadata:
+  name: salesforcecontactsearch
+  projectName: pre-epam
+  annotations:
+    componentType: service
+spec:
+  inbound:
+    - name: SalesforceContactSearch
+      port: 9090
+      type: REST
+      visibility: Public
+      context: .
+      schemaFilePath: openapi.yaml
